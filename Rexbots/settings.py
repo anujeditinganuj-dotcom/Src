@@ -132,18 +132,9 @@ async def direct_commands(client: Client, message: Message):
     await message.reply_text(
         COMMANDS_TXT,
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton(
-                "⚙️ ᴏᴘᴇɴ sᴇᴛᴛɪɴɢs",
-                callback_data="settings_back_btn",
-                icon_custom_emoji_id=ICON_GEAR,
-                style=ButtonStyle.PRIMARY
+            _btn("⚙️ ᴏᴘᴇɴ sᴇᴛᴛɪɴɢs", callback_data="settings_back_btn"),
+            _btn("❌ ᴄʟᴏsᴇ", callback_data="close_btn"),
             ),
-            InlineKeyboardButton(
-                "❌ ᴄʟᴏsᴇ",
-                callback_data="close_btn",
-                icon_custom_emoji_id=ICON_CLOSE,
-                style=ButtonStyle.DANGER
-            )
         ]]),
         parse_mode=enums.ParseMode.HTML,
         disable_web_page_preview=True
