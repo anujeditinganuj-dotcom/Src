@@ -27,7 +27,7 @@ try:
     from pyrogram.enums import ButtonStyle
     BUTTON_STYLE_SUPPORTED = True
 except ImportError:
-    BUTTON_STYLE_SUPPORTED = True
+    BUTTON_STYLE_SUPPORTED = False
 
 # =========================================================
 # Premium Emojis
