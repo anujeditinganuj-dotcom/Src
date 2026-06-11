@@ -108,9 +108,9 @@ REACTIONS = [
     "🏆", "⚜️"
 ]
 
-dev_text = "👨‍💻 Mind Behind This Bot:\n• @anujbyedit\n• @anujbyedit"
+dev_text = "👨‍💻 Mind Behind This Bot:\n• @anujedits76\n• @anujedits76"
 expected_dev_hash = "9bb60b2b9b5fd48966373306d6e841840814782675fafff6cbd9e6ab1aa0c60b"
-channels_text = "📢 Official Channels:\n• @anujbyedit\n• @anujbyedit\n\nStay updated for new features!"
+channels_text = "📢 Official Channels:\n• @anujedits76\n• @anujedits76\n\nStay updated for new features!"
 expected_channels_hash = "c26e982be1465af62d7fe9893d49afa104480655f3cf462c04b439a39b58ce65"
 if (
     hashlib.sha256(dev_text.encode('utf-8')).hexdigest() != expected_dev_hash or
@@ -167,7 +167,7 @@ class script(object):
     ABOUT_TXT = """<b>ℹ️ About This Bot</b>
 <blockquote><b>╭────[ 🧩 𝐀𝐍𝐔𝐉 ]────⍟</b>
 <b>├⍟ 🤖 Bot Name : <a href=http://t.me/save_restricted_content_ak_bot>Save Content</a></b>
-<b>├⍟ 👨‍💻 Developer : <a href=https://t.me/anujbyedit>𝐀𝐍𝐔𝐉 𝐊𝐔𝐌𝐀𝐑</a></b>
+<b>├⍟ 👨‍💻 Developer : <a href=https://t.me/anujedits76>𝐀𝐍𝐔𝐉 𝐊𝐔𝐌𝐀𝐑</a></b>
 <b>├⍟ 📚 Library : <a href='https://docs.pyrogram.org/'>Pyrogram Async</a></b>
 <b>├⍟ 🐍 Language : <a href='https://www.python.org/'>Python 3.11+</a></b>
 <b>├⍟ 🗄 Database : <a href='https://www.mongodb.com/'>MongoDB Atlas Cluster</a></b>
@@ -205,7 +205,7 @@ class script(object):
 </blockquote>
 """
 
-    CAPTION = """<b><a href="https://t.me/anujbyedit"></a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/anujbyedit">𝐀𝐍𝐔𝐉 𝐊𝐔𝐌𝐀𝐑</a></b>"""
+    CAPTION = """<b><a href="https://t.me/anujedits76"></a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/anujbyedit">𝐀𝐍𝐔𝐉 𝐊𝐔𝐌𝐀𝐑</a></b>"""
 
     LIMIT_REACHED = """<b>🚫 Daily Limit Exceeded</b>
 <b>Your 10 free saves for today have been used.</b>
@@ -587,7 +587,7 @@ async def send_help(client: Client, message: Message):
 @Client.on_message(filters.command(["plan", "myplan", "premium"]))
 async def send_plan(client: Client, message: Message):
     buttons = InlineKeyboardMarkup([
-        [make_button("📸 sᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ᴘʀᴏᴏғ", url="https://t.me/anujbyedit", icon_custom_emoji_id=ICON_PAYMENT)],
+        [make_button("📸 sᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ᴘʀᴏᴏғ", url="https://t.me/anujedits76", icon_custom_emoji_id=ICON_PAYMENT)],
         [make_button("❌ ᴄʟᴏsᴇ", callback_data="close_btn", icon_custom_emoji_id=ICON_CLOSE)]
     ])
     await client.send_photo(
@@ -1005,7 +1005,7 @@ async def button_callbacks(client: Client, callback_query: CallbackQuery):
 
     elif data == "myplan_btn":
         buttons = InlineKeyboardMarkup([
-            [make_button("📸 sᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ᴘʀᴏᴏғ", url="https://t.me/anujbyedit", icon_custom_emoji_id=ICON_PAYMENT)],
+            [make_button("📸 sᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ᴘʀᴏᴏғ", url="https://t.me/anujedits76", icon_custom_emoji_id=ICON_PAYMENT)],
             [make_button("⬅️ ʙᴀᴄᴋ", callback_data="start_btn", icon_custom_emoji_id=ICON_HOME)]
         ])
         await client.edit_message_media(
@@ -1020,7 +1020,7 @@ async def button_callbacks(client: Client, callback_query: CallbackQuery):
 
     elif data == "buy_premium":
         buttons = InlineKeyboardMarkup([
-            [make_button("📸 sᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ᴘʀᴏᴏғ", url="https://t.me/anujbyedit", icon_custom_emoji_id=ICON_PAYMENT)],
+            [make_button("📸 sᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ᴘʀᴏᴏғ", url="https://t.me/anujedits76", icon_custom_emoji_id=ICON_PAYMENT)],
             [make_button("⬅️ ʙᴀᴄᴋ", callback_data="start_btn", icon_custom_emoji_id=ICON_HOME)]
         ])
         await client.edit_message_media(
