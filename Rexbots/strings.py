@@ -52,7 +52,7 @@ HELP_TXT = """<b>🚀 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐀𝐍𝐔𝐉 �
 <b>💡 Tips</b>
 • Free users: 10 saves/day + 5 files per batch
 • Premium users: Unlimited saves & batch size
-• Contact @anujbyedit for support or premium purchase
+• Contact @anujedits76 for support or premium purchase
 
 <b>𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐮𝐬𝐢𝐧𝐠 𝐀𝐧𝐮𝐣 𝐊𝐮𝐦𝐚𝐫! ❤️</b>
 """
@@ -99,7 +99,7 @@ COMMANDS_TXT = """<b>📜 All Available Commands</b>
 </blockquote>
 
 <b>🔥 Premium = Unlimited Everything</b>
-<i>Contact @anujbyedit to upgrade!</i>
+<i>Contact @anujedits76 to upgrade!</i>
 """
 
 # Dont remove Credits
